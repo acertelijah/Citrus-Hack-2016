@@ -9,6 +9,8 @@ body {
 	margin-left: 0px;
 	font-style: normal;
 	font-weight: 200;
+	color: #FF0004;
+	text-align: justify;
 }
 /* Container */
 .container {
@@ -16,7 +18,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 1000px;
-	background-color: #FFFFFF;
+	background-color: #000000;
 }
 /* Navigation */
 header {
@@ -99,6 +101,8 @@ ul li:hover a {
 	padding-left: 20px;
 	padding-right: 20px;
 	color: #A3A3A3;
+	font-family: source-sans-pro;
+	font-style: normal;
 }
 .about {
 	padding-left: 25px;
@@ -108,6 +112,8 @@ ul li:hover a {
 	background-color: #000000;
 	margin-top: 0px;
 	size: landscape;
+	color: #A3A3A3;
+	text-align: left;
 }
 /* Stats Gallery */
 .stats {
