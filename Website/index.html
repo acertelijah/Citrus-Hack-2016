@@ -1,65 +1,35 @@
 <!doctype html>
-<html lang="en-US">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bye-Nary</title>
-<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
-<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-<script>var __adobewebfontsappname__="dreamweaver"</script>
-<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Navigation -->
-  <header>  </header>
-  <!-- Hero Section -->
-  <section class="hero" id="hero">
-    <h2 class="hero_header">WELCOME TO THE GAME....BYE-NARY!!!</h2>
-    <p class="tagline">Will your memory lead you to the right address?</p>
-  </section>
-<object id="UnityObject" classid="clsid:444785F1-DE89-4295-863A-D46C3A781394"
-        width="400" height="400"
-        codebase="http://webplayer.unity3d.com/download_webplayer/UnityWebPlayer.cab#version=2,0,0,0">
-    <param name="unity3d" value="WebPlayer.unity3d" />
-    <embed src="mlpbeta/mlpbeta.unity3d" width=400
-  type="application/vnd.unity" id="UnityEmbed" height="400" pluginspage="http://www.unity3d.com/unity-web-player-2.x" name="UnityEmbed" border="0" align="ABSMIDDLE" hspace="370" />     
-  </object>
-  <!-- About Section -->  <!-- Stats Gallery Section -->
-  
-  <!-- Parallax Section -->
-  <!-- More Info Section -->
-  <footer>
-    <article class="footer_column">
-      <h3>CITRUS HACKS 2016</h3>
-      <img src="images/citrus_logo_200_400.png" alt="" width="400" height="200" class="cards"/>
-      <p>Dakota Whelchel, Jessica Gonzalez, Elijah Marchese, and Jose Peralta came to Citrus Hacks in order to learn new skills, to have fun, and to win! We learned about Unity, HTML/CSS and ended up making a website and a Unity game! </p>
-    </article>
-    <article class="footer_column">
-      <h3>WHERE WILL YOU FIND YOUR NERY? </h3>
-      <img src="images/1_0_400_200.png" alt="" width="400" height="200" class="cards"/>
-      <p>Bye-Nary is a game where Juan (1) and Nary (0) are living happily together in a memory location inside your processor. The evil forces of memory leaks kidnapped Juan's beloved Nary, and now Juan is on a quest to rescue his Two's Complelment. </p>
-    </article>
-  </footer>
-  <!-- Footer Section -->
-  <section class="footer_banner" id="contact">
-    <h2 class="hidden">Footer Banner Section </h2>
-    <p class="hero_header">LINKS TO OUR FILES</p>
-    <div class="button">
-      <p><a href="https://github.com/acertainelijah/Citrus-Hack-2016"> gITHUB</a></p>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Bye-Nary</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <p class="header"><span>Unity WebGL Player | </span>Bye-Nary</p>
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+      <br>
+      <div class="logo"></div>
+      <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+      <div class="title">Bye-Nary</div>
     </div>
-  </section>
-  <!-- Copyrights Section -->
-  <div class="copyright">&copy;2016 Bye-nary inc</div>
-</div>
-<!-- Main Container Ends -->
-</body>
+    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+    <script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Development/Bye-Nary HTML5.data",
+    codeUrl: "Development/Bye-Nary HTML5.js",
+    memUrl: "Development/Bye-Nary HTML5.mem",
+    
+  };
+</script>
+<script src="Development/UnityLoader.js"></script>
+
+  </body>
 </html>
