@@ -22,11 +22,11 @@ body {
 header {
 	width: 100%;
 	height: 5%;
-	background-color: #000000;
+	background-color: #070000;
 	border-bottom: 1px solid #2C9AB7;
 }
 .logo {
-	color: #fff;
+	color: #000000;
 	font-weight: bold;
 	text-align: undefined;
 	width: 10%;
@@ -63,7 +63,7 @@ ul li:hover a {
 	color: #2C9AB7;
 }
 .hero_header {
-	color: #D02326;
+	color: #000000;
 	text-align: center;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -73,17 +73,17 @@ ul li:hover a {
 }
 /* Hero Section */
 .hero {
-	background-color: #07C061;
+	background-color: #2396cc;
 	padding-top: 150px;
 	padding-bottom: 150px;
 }
 .light {
 	font-weight: bold;
-	color: #133174;
+	color: #000000;
 }
 .tagline {
 	text-align: center;
-	color: #3F7315;
+	color: #FFFFFF;
 	margin-top: 4px;
 	font-weight: lighter;
 	text-transform: uppercase;
@@ -107,6 +107,7 @@ ul li:hover a {
 	display: inline-block;
 	background-color: #000000;
 	margin-top: 0px;
+	size: landscape;
 }
 /* Stats Gallery */
 .stats {
@@ -136,7 +137,7 @@ ul li:hover a {
 	margin-right: 5px;
 	margin-bottom: 5px;
 	margin-left: 5px;
-	color: #52BAD5;
+	color: #2396cc;
 }
 .gallery .thumbnail p {
 	margin-top: 0px;
